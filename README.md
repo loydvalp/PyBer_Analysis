@@ -1,27 +1,12 @@
 # PyBer_Analysis
 
-## Project Overview
+## Project Challenge Overview
 
 Given the task to perform exploratory analysis for PyBer to help improve access to ride-sharing services and determine affordability for neighborhoods.  The following deliverables for the analysis are:
 
-1.	Create a bubble chart that showcases the average fare versus the total number of rides with bubble size based on the total number of  drivers for each city type, including urban, suburban, and rural.
-2.	Determine the mean, median, and mode for the following:
-
-        a.	The total number of rides for each city type.
-        b.	The average fares for each city type. 
-        c.	The total number of drivers for each city type.
-        
-3.	Create box-and-whisker plots that visualize each of the following to determine if there are any outliers:
-
-        a.	The number of rides for each city type.
-        b.	The fares for each city type.
-        c.	The number of drivers for each city type.
-        
-4.	Create a pie chart that visualizes each of the following data for each city type:
-
-        a.	The percent of total fares.
-        b.	The percent of total rides.
-        c.	The percent of total drivers.
+- Technical Analysis Deliverable 1: A DataFrame that summarizes the key metrics for the ride-sharing data by city type.
+- Technical Analysis Deliverable 2: A multiple-line chart, with one line for each city type, that shows the sum of the fares for each week.
+- Delivering Results: A written report of your results.
 
 ## Resources
 
@@ -30,4 +15,6 @@ Given the task to perform exploratory analysis for PyBer to help improve access 
 
 ## Summary
 
-![](analysis/Fig1.png)
+The purpose of this assignment was to create a summary dataframe of the key metrics for the ride sharing data and to show the relationship between each city type and total fares.  An analysis was perform from January to early May 2019.    
+
+![](analysis/Fig8.png)
