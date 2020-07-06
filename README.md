@@ -14,7 +14,7 @@ Given the task to perform exploratory analysis for PyBer to help improve access 
 - Software: Python 3.7.6 ('base':conda), Visual Studio Code 1.46.1, Juypter Notebook
 
 
-### Technical Analysis Deliverable 1:
+## Technical Analysis Deliverable 1:
 
 To create the summary DataFrame, follow these steps:
 
@@ -43,7 +43,7 @@ As shown in the table, the Rural area had the highest average fare per ride out 
 
 ![](analysis/Fig8.png)
 
-### Technical Analysis Deliverable 2:
+## Technical Analysis Deliverable 2:
 
 1. What challenges or difficulties did you encounter? 
 2. Explain how you overcame any challenges or difficulties.
@@ -53,3 +53,15 @@ As shown in the table, the Rural area had the highest average fare per ride out 
 After inspecting the CSV files, I noticed that the ride_data.csv has 2376 rows and city_data.csv has 121 rows.  Merged the two data sets into one.  Both data sets had a "City" column in common.  As I was finding the key metrics for the data summary.  The challenge I faced was finding the total drivers.  I overcame this issue by going back to the city_data_df.  The issue after both data sets were merged was the driver_count was now based on the rides and city type instead of the city type along.  I went back to the city_data_df to calculate the sum of the driver by city type. See the calculation below.
 
 ![](analysis/Fig10.PNG)
+
+## Technical Analysis Deliverable 3:
+
+1. What recommendations would you give the CEO for addressing any disparities among the city types?
+2. Provide two additional analyses you could do to gain more insight into the data, like using other datasets.
+3. What technical steps would you take to perform the additional analyses?
+
+### Recommendations
+
+One of the disparities, I noticed was the number of drivers per city type.  Urban has 81% of drivers per city type.  Recommend adding more drivers to the suburban and rural to reduce the cost of the rides.  If the cost of the rides are reduced, the amount of rides may increase.  
+
+![](analysis/Fig7.png)
