@@ -50,6 +50,6 @@ As shown in the table, the Rural area had the highest average fare per ride out 
 
 ## Challenges Faced
 
-After inspecting the CSV files, I noticed that the ride_data.csv has 2376 rows and city_data.csv has 121 rows.  Merged the two data sets into one.  Both data sets had "City" column in common.  
+After inspecting the CSV files, I noticed that the ride_data.csv has 2376 rows and city_data.csv has 121 rows.  Merged the two data sets into one.  Both data sets had a "City" column in common.  As I was finding the key metrics for the data summary.  The challenge I faced was finding the total drivers.  I overcame this issue by going back to the city_data_df.  The issue after both data sets were merged was the driver_count was now based on the rides and city type instead of the city type along.  I went back to the city_data_df to calculate the sum of the driver by city type. See the calculation below.
 
 ![](analysis/Fig10.PNG)
