@@ -62,6 +62,14 @@ After inspecting the CSV files, I noticed that the ride_data.csv has 2376 rows a
 
 ### Recommendations
 
-One of the disparities, I noticed was the number of drivers per city type.  Urban has 81% of drivers per city type.  Recommend adding more drivers to the suburban and rural to reduce the cost of the rides.  If the cost of the rides are reduced, the amount of rides may increase.  
+One of the disparities, I noticed was the number of drivers per city type.  Urban has 81% of drivers per city type.  Recommend adding more drivers to the suburban and rural.
 
 ![](analysis/Fig7.png)
+
+Additional analysis that will provide insight into why the urban city type has the most driver is the city population. Using the census bureau report or historian data to find the city population.  I would plot a graph to compare the number of drivers and the city population.  I would use python and matplotib.  I look for a trend. 
+
+Another additional analysis that will provide insight into the data would be the number of rides by months to see if there is a trend over seasons.  I would use the current merged data set. As of now, the urban city type has the most drivers and the most rides.  I will plot a line graph to see if the number of rides will increase or decrease per city type of an entire year.   I would also check the previous years to see if the company has improved or not.  I would use python and matplotib software.  
+
+I would also check out competitors such as Lyft and Uber's fares to find out if Pyber's current fares are suitable.
+
+
